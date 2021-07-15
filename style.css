@@ -21,6 +21,7 @@ body {
 
 .titulo {
   color: #fff;
+  font-size: 2.5rem;
 }
 
 form {
@@ -30,7 +31,7 @@ form {
 }
 
 .input_text {
-  width: 400px;
+  width: 50vw;
   height: 50px;
   border-radius: 0.5rem;
   outline: none;

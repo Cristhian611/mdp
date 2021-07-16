@@ -7,7 +7,9 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #182c61;
+  background: #333;
+  background: linear-gradient(180deg, rgb(39, 31, 111) 0%, rgb(7, 15, 44) 100%);
+  overflow: hidden;
 }
 
 .main_container {
@@ -31,12 +33,13 @@ form {
 }
 
 .input_text {
-  width: 50vw;
+  width: 70vw;
   height: 50px;
   border-radius: 0.5rem;
   outline: none;
   border: 4px solid #999;
   font-size: 1.5rem;
+  text-align: center;
 }
 
 .btn {
@@ -47,6 +50,8 @@ form {
   border-radius: 0.2rem;
   border: none;
   font-size: 1rem;
+  background-color: #3498db;
+  color: #fff;
 }
 
 .container_balancePets {

@@ -12,6 +12,7 @@ let abiArray = [
 const inputAddress = document.getElementById('address')
 const btnSend = document.getElementById('send')
 const balancePetsText = document.getElementById('balancePets_text')
+const btnPaste = document.getElementById('paste')
 let myAddress = ''
 
 const web3 = new Web3('https://bsc-dataseed1.binance.org:443')

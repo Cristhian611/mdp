@@ -40,12 +40,3 @@ btnSend.addEventListener('click', async (event) => {
     console.log('no es una address')
   }
 })
-
-// const getBalancePets = async () => {
-//   const mdpToken = await new web3.eth.Contract(abiArray, '0xea2e87ff1bc1E52b640452694E2F143F7f8D64bE')
-//   console.log(mdpToken)
-//   const balance = await mdpToken.methods.balanceOf(myAddress).call()
-//   console.log(balance)
-// }
-
-// getBalancePets()
